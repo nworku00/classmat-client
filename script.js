@@ -10,8 +10,12 @@ let pian = document.querySelector('.pian')
 let generator = document.querySelector('.gene')
 //
 //function selectValue() {
-//     drum = document.querySelector('.drum');
-//     output= drum.options[drum.selectedIndex].value;
+//     
+//     outputDrum = drum.options[drum.selectedIndex].value;
+//     
+//     outputBass = bass.options[bass.selectedIndex].value;
+//     
+//     outputPian = pian.options[pian.selectedIndex].value;
 // }
 let call = () => {
     fetch(`${url}/bassists`)
